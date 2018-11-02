@@ -1,0 +1,9 @@
+print("calculator")
+imp1=int(input("enter a number:"))
+imp2=int(input("enter a another number:"))
+print("enter a command:")
+a=input("")
+if a=="add":
+print("the addition is",imp1+imp2)
+elif a=="subtract":
+print("the subtraction is",imp1-imp2)
